@@ -1,0 +1,27 @@
+{
+  "benefits": [
+    {"icon":"sparkles","label":"Novedades"},
+    {"icon":"shield-check","label":"Confianza"},
+    {"icon":"users","label":"Comunidad"},
+    {"icon":"mail","label":"Suscripción"},
+    {"icon":"chart-line","label":"Resultados"},
+    {"icon":"message-circle","label":"Soporte"}
+  ],
+  "testimonials": [
+    {
+      "name": "María García",
+      "role": "Directora de Marketing",
+      "quote": "Desde que me suscribí, mis campañas han mejorado notablemente. Los consejos son muy prácticos."
+    },
+    {
+      "name": "Carlos Mendoza",
+      "role": "Freelance Creativo",
+      "quote": "La comunidad es increíble. He encontrado colaboradores y recursos que no conocía."
+    },
+    {
+      "name": "Lucía Fernández",
+      "role": "CEO de Startup",
+      "quote": "El boletín semanal es mi lectura obligada. Me mantiene actualizado sin perder tiempo."
+    }
+  ]
+}

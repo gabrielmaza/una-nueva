@@ -1,0 +1,82 @@
+/* Base styles */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+/* Smooth focus ring */
+*:focus-visible {
+  outline: 2px solid #7C3AED;
+  outline-offset: 2px;
+}
+
+/* Gradient text utility */
+.text-gradient {
+  background: linear-gradient(to right, #7C3AED, #A855F7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Transition utilities */
+.transition-transform {
+  transition: transform 0.2s ease;
+}
+.transition-shadow {
+  transition: box-shadow 0.2s ease;
+}
+
+/* Active nav link */
+.nav-link.active {
+  color: #7C3AED;
+  font-weight: 600;
+}
+
+/* Benefit card styling */
+.benefit-card {
+
+  border: 1px solid rgba(124, 58, 237, 0.1);
+}
+.benefit-card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(124, 58, 237, 0.3);
+}
+
+/* Testimonial card */
+.testimonial-card {
+
+  border: 1px solid rgba(124, 58, 237, 0.1);
+}
+
+/* Highlight CTA when subscription section is visible */
+.cta-highlight {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(124, 58, 237, 0.4);
+}
+
+/* Mailchimp message styling */
+.mc-success {
+  color: #065F46;
+  background-color: #D1FAE5;
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+}
+.mc-error {
+  color: #991B1B;
+  background-color: #FEE2E2;
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+}
+.mc-loading {
+  color: #1F2937;
+  background-color: #F3F4F6;
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+}
+/* Mobile overflow control - prevents scroll jump on desktop */
+.no-scroll {
+  overflow: hidden;
+}

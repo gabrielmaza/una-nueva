@@ -1,0 +1,51 @@
+/* Layout-specific adjustments */
+
+/* Navigation shadow on scroll */
+#main-nav.scrolled {
+  box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+}
+
+/* Mobile menu smooth */
+#mobile-menu {
+  transition: all 0.3s ease;
+}
+
+/* Hero gradient overlay */
+.hero-overlay {
+  background: linear-gradient(120deg, rgba(124,58,237,0.08) 0%, rgba(168,85,247,0.12) 100%);
+  backdrop-filter: blur(4px);
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+}
+
+/* Ensure content above overlay */
+.hero-content {
+  position: relative;
+  z-index: 10;
+}
+
+/* Grid gaps */
+.benefits-grid {
+  gap: 2rem;
+}
+
+/* Slight card border for testimonials */
+.testimonial-card {
+  border: 1px solid rgba(124,58,237,0.15);
+}
+
+/* Mailchimp form responsiveness */
+@media (max-width: 640px) {
+  #mc-form {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  #mc-submit {
+    width: 100%;
+  }
+}
+/* Mobile overflow control - prevents scroll jump on desktop */
+.no-scroll {
+  overflow: hidden;
+}
